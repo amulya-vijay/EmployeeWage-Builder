@@ -19,7 +19,8 @@ public class EmployeeWageBuilder {
 		
 		System.out.println("Welcome to Employee Wage Computation Program.");
 		System.out.println(employeeAttendance());
-		Wages wages = new Wages(20,8);
-		wages.dailyWage();
+		Wages wages = new Wages();
+		wages.dailyWage(20,8);
+		wages.partTimeWage(4);
 	}
 }
